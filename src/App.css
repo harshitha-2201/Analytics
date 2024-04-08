@@ -1,0 +1,9 @@
+*{
+  margin: 1px;
+  
+}
+.app-container{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}

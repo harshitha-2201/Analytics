@@ -1,0 +1,141 @@
+
+.home{
+  flex-grow: 1;
+  padding: 2px;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+.home-page-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+.home-page {
+  display: flex;
+  align-items: center; 
+}
+.home-page-input {
+  flex-grow: 1; 
+  margin-right: 20px; 
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-container input {
+  padding-left: 30px; 
+  padding-right: 30px; 
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 100%;
+  padding: 10px;
+  width: 250px;
+
+}
+
+.search-icon,
+.end-symbol {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-icon {
+  left: 0px; 
+  
+}
+
+.end-symbol {
+  right: 1px; 
+}
+
+.home-page-items {
+  display: flex;
+  gap: 15px;
+  height: 30px;
+
+}
+
+.home-page-items img {
+  background-color: rgb(255, 253, 253);
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: 0px 4px 4px  rgba(232, 229, 229, 0.1);
+}
+
+.home-page-accounts {
+  height: 70px;
+  background-color: none !important;
+}
+
+.home-page-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: 500px;
+
+} 
+.home-span1{
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.home-span2,
+.home-span3,
+.home-span4{
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  color: gray;
+}
+.home-span2{
+  color: rgb(26, 108, 168);
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative; 
+  width: 400px;
+}
+
+.search-label {
+  position: absolute; /* Position the label absolutely */
+  top: -10px; /* Adjust vertical position */
+  left: 10px; /* Adjust horizontal position */
+  background-color: white; /* Match the background color */
+  padding: 0 5px; /* Add padding */
+  color:rgb(26, 108, 168) ;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+}
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.wrong-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.wrong-icon {
+  width: 32px;
+  height: 28px;
+}

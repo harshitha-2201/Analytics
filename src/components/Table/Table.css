@@ -1,0 +1,68 @@
+.table-container {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(91, 91, 91, 0.1);
+
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    margin-top: 10px;
+
+  }
+  .hr2{
+    margin: 10px-;
+  }
+  
+  .period-selector {
+    display: flex;
+  }
+  
+  .period-options {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+  }
+  .option-monthly {
+    background-color: rgb(141, 141, 210);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-heading {
+    font-weight: bold;
+  }
+  
+  .table-row > div {
+    flex: 1;
+    padding: 2px;
+    text-align: center;
+
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+.preview{
+    border:none;
+}  
+.table-row span{
+    color: gray;
+}

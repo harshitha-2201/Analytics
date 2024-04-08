@@ -1,0 +1,66 @@
+.sidebar-main-conatier {
+    width: 20%;
+    background-color: #2F667F;
+    border-radius: 30px;
+    color: white;
+
+  }
+  
+  .sidebar-container {
+    margin: 0px 0px 0px 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    padding-top: 20px;
+    width: 230.22px;
+    height: 47.11px;
+    gap: 15.67px;
+  }
+  
+  .logo-container img {
+    width: 42.67px;
+    height: 42.67px;
+  }
+  
+  .logo-container h1 {
+    font-family: Poppins;
+    font-size: 42.67px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 100;
+    gap: 26px;
+    padding-top: 10px;
+  }
+
+  .hr{
+   margin: 50px 20px 20px 20px;
+  }
+
+  .nav-items-conatiner{
+    margin-top: 30%;
+
+
+  }
+  
+.nav-items img{
+    width: 30px; 
+    height: 30px; 
+    color: white;
+
+}
+.nav-items.h3{
+    width: 10px; 
+    height: 10px;
+
+}
+.side-btn{
+   margin-left: 210px;
+   margin-top: 35px;
+}
